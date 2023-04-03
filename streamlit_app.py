@@ -13,8 +13,8 @@ from collections import defaultdict
 from scipy.spatial.distance import cdist
 import time
 
-cid = st.secrets['client_id']
-secret = st.secrets['client_secret']
+cid = '081bdb72e7a048d1a6918db160749c00'
+secret = '45de413eaa964362b9f2c71e4309292d'
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager
 =
